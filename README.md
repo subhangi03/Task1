@@ -8,22 +8,23 @@ Data: Genesis Block
 Previous Hash: 0
 Hash: 6a5944b808164772f3d50834f1beeef03bfdca803635caeaa729212a1e1c139f
 Nonce: 0
---------------------------------------------------
+
 Index: 1
 Timestamp: 1749444913.770672
 Data: Block 1 Data
 Previous Hash: 6a5944b808164772f3d50834f1beeef03bfdca803635caeaa729212a1e1c139f
 Hash: 0000e8a0a099915a1def6e4a6ee1778fb83abb3b26d311a03662e1a22f2c4096
 Nonce: 28010
---------------------------------------------------
+
 Index: 2
 Timestamp: 1749444913.9616535
 Data: Block 2 Data
 Previous Hash: 0000e8a0a099915a1def6e4a6ee1778fb83abb3b26d311a03662e1a22f2c4096
 Hash: 000064d3ce8cd4054a1c85374a76cfc8a94f08388d283893f0fa630e13a35845
 Nonce: 6817
---------------------------------------------------
+
 Is blockchain valid? True
+--------------------------------------------------
 
 After Tampering with Block 1:
 Index: 0
@@ -32,21 +33,21 @@ Data: Genesis Block
 Previous Hash: 0
 Hash: 6a5944b808164772f3d50834f1beeef03bfdca803635caeaa729212a1e1c139f
 Nonce: 0
---------------------------------------------------
+
 Index: 1
 Timestamp: 1749444913.770672
 Data: Hacked Block 1 Data
 Previous Hash: 6a5944b808164772f3d50834f1beeef03bfdca803635caeaa729212a1e1c139f
 Hash: ada677117dcda587c9c84df36031d98d96c62b5f58c64a82ca6126560eafad89
 Nonce: 28010
---------------------------------------------------
+
 Index: 2
 Timestamp: 1749444913.9616535
 Data: Block 2 Data
 Previous Hash: 0000e8a0a099915a1def6e4a6ee1778fb83abb3b26d311a03662e1a22f2c4096
 Hash: 000064d3ce8cd4054a1c85374a76cfc8a94f08388d283893f0fa630e13a35845
 Nonce: 6817
---------------------------------------------------
+
 The blockchain is valid: False
 
 After Recalculating Hashes:
@@ -56,22 +57,23 @@ Data: Genesis Block
 Previous Hash: 0
 Hash: 6a5944b808164772f3d50834f1beeef03bfdca803635caeaa729212a1e1c139f
 Nonce: 0
---------------------------------------------------
+
 Index: 1
 Timestamp: 1749444913.770672
 Data: Hacked Block 1 Data
 Previous Hash: 6a5944b808164772f3d50834f1beeef03bfdca803635caeaa729212a1e1c139f
 Hash: ada677117dcda587c9c84df36031d98d96c62b5f58c64a82ca6126560eafad89
 Nonce: 28010
---------------------------------------------------
+
 Index: 2
 Timestamp: 1749444913.9616535
 Data: Block 2 Data
 Previous Hash: ada677117dcda587c9c84df36031d98d96c62b5f58c64a82ca6126560eafad89
 Hash: 3c5302222149110a0401249d36f8bb6cd0502c768d178f7c4dde2287c3131a04
 Nonce: 6817
---------------------------------------------------
+
 The blockchain is valid: True
+--------------------------------------------------
 
 ### MINING SIMULATION (Nonce task):
 
