@@ -1,6 +1,7 @@
 ## CONSOLE OUTPUTS:
 ### BLOCKCHAIN SIMULATION (3 linked blocks):
 
+```plaintext
 Original Blockchain:
 Index: 0
 Timestamp: 1749444913.769553
