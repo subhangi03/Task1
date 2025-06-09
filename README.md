@@ -1,5 +1,5 @@
-## CONSOLE OUTPUTS:
-### BLOCKCHAIN SIMULATION (3 linked blocks):
+# CONSOLE OUTPUTS:
+## BLOCKCHAIN SIMULATION (3 linked blocks):
 
 ```plaintext
 Original Blockchain:
@@ -75,7 +75,7 @@ Nonce: 6817
 The blockchain is valid: True
 ```
 
-### MINING SIMULATION (Nonce task):
+## MINING SIMULATION (Nonce task):
 
 ```plaintext
 Mining block with difficulty: 4
@@ -85,7 +85,7 @@ Time taken: 0.5446 seconds
 Final Hash: 000011e2d00fdae19eb7e338591bbef9ae6f218c2e83e6da38a2297af6d30fa6
 ```
 
-### CONSENSUS DEMO (PoW, PoS, DPoS logic):
+## CONSENSUS DEMO (PoW, PoS, DPoS logic):
 
 ```plaintext
 Starting Proof of Work (PoW) Simulation...
