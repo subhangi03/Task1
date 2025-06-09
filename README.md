@@ -73,17 +73,21 @@ Hash: 3c5302222149110a0401249d36f8bb6cd0502c768d178f7c4dde2287c3131a04
 Nonce: 6817
 
 The blockchain is valid: True
+```
 
 ### MINING SIMULATION (Nonce task):
 
+```plaintext
 Mining block with difficulty: 4
 Block mined!
 Nonce attempts: 88146
 Time taken: 0.5446 seconds
 Final Hash: 000011e2d00fdae19eb7e338591bbef9ae6f218c2e83e6da38a2297af6d30fa6
+```
 
 ### CONSENSUS DEMO (PoW, PoS, DPoS logic):
 
+```plaintext
 Starting Proof of Work (PoW) Simulation...
 Validators and their computational power:
  - MinerA → Power: 77
@@ -119,3 +123,4 @@ Final vote tally:
  Top Candidate(s): ['Charlie']
  Selected Delegate: Charlie
  Explanation: In DPoS, voters elect delegates. One of the top-voted delegates is randomly selected to produce the block.
+```
