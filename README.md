@@ -24,7 +24,6 @@ Hash: 000064d3ce8cd4054a1c85374a76cfc8a94f08388d283893f0fa630e13a35845
 Nonce: 6817
 
 Is blockchain valid? True
---------------------------------------------------
 
 After Tampering with Block 1:
 Index: 0
@@ -73,7 +72,6 @@ Hash: 3c5302222149110a0401249d36f8bb6cd0502c768d178f7c4dde2287c3131a04
 Nonce: 6817
 
 The blockchain is valid: True
---------------------------------------------------
 
 ### MINING SIMULATION (Nonce task):
 
